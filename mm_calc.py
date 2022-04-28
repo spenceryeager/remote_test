@@ -6,3 +6,5 @@ volume = 0.1 # L
 
 grams = (molarMass * concentration * volume)
 print(grams, "grams needed")
+volume = (grams * density)
+print(volume, "mL required")
